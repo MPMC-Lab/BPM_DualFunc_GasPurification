@@ -1,4 +1,4 @@
-# Bayesian-predictive-model-for-dual-functional-gas-purification
+# Bayesian predictive model for dual-functional gas purification
 
 This repository contains MATLAB code dedicated to predict dual-functional gas adsorption processes. The codebase leverages Bayesian analysis and various isotherm models to provide a comprehensive tool for understanding mechanisms within dual-functional adsorption. Key functionalities include the setup and execution of Bayesian analysis, forward modeling based on inferred parameters, and essential functions for solving linear systems and calculating isotherm properties.
 
