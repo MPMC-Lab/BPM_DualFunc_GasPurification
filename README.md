@@ -19,7 +19,7 @@ This function embodies the essence of the Inverse Uncertainty Quantification met
 ### 3. Forward Modeling for Dual-Functional Gas Purification (`Model_DualFunc_GasPurification.m`)
 The `Model_DualFunc_GasAdsorption` function is a testament to the detailed simulation capabilities of the tool. It undertakes forward modeling for dual-functional gas purification by:
 - **Employing Various Isotherm Models**: Adapts to different isotherm models, providing versatility in modeling the adsorption process.
-- **Resolving concurrent mechanisms within dual-functional gas purification process**: Accounts for both adsorption and catalytic decomposition occurring simultaneously in dual-functional fixed beds, enabling mechanism-specific parameter estimation, predictive breakthrough analysis, and quantitative evaluation of gas purification performance under varied operating conditions.
+- **Resolving concurrent mechanisms within dual-functional gas purification process**: Accounts for both adsorption and catalytic decomposition occurring simultaneously in dual-functional gas purification process, enabling mechanism-specific parameter estimation, predictive breakthrough analysis, and quantitative evaluation of gas purification performance under varied operating conditions.
 - **Solving with Implicit Solver**: Utilizes an advanced implicit solver with iterative linearization using the Newton method, ensuring rapid and precise simulation results even in complex scenarios.
 
 ### 4. Supporting Functions
