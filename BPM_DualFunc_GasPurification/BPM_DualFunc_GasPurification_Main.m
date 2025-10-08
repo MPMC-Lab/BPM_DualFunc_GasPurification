@@ -346,8 +346,8 @@ for j = 1:4
     data_step1 = post_step1(:, j); % log-scale 데이터 열 추출
     data_step1 = data_step1(:);
     
-    Q1 = prctile(data_step1, 5);
-    Q3 = prctile(data_step1,95);
+    Q1 = prctile(data_step1, 2.5);
+    Q3 = prctile(data_step1,97.5);
 
     Low(j)  = Q1;
     Upp(j) = Q3;
@@ -554,4 +554,5 @@ fid = fopen(filename_csv_Step2, 'w');
 fprintf(fid, '%s,', header{1:end-1});
 fprintf(fid, '%s\n', header{end});
 fclose(fid);
+
 dlmwrite(filename_csv_Step2, Optpar_Save_Step2, '-append', 'precision', '%.11f', 'delimiter', ','); % Append results to a CSV file
